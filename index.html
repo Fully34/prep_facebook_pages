@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Welcome To Facebook</title>
-	<link href="assets/style/main.css" rel="stylesheet" type="text/css">
+	<link href="assets/styles/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<header>
-		<section class="row">
-			<div class="grid">
-				<section class="logo">
-				</section>
-				<section class="login">
-					<fieldset class="login-fields">
-						<form action="#" method="post"> 
-							<label for="email">
-								Email <br>
-								<input type="email" name="email" id="email">
+	<header class="container">
+		<section class="logo">
+		</section>
+		<section class="container navbar-container">
+			<section class="navbar">
+				<form class="login" action="#" method="post"> 
+					<ul class="fields">
+						<li><label for="email">
+							Email <br>
+							<input class="logging-in" type="email" name="email" id="email">
 							</label>
-						</form>
-				</section>
-
-
-			</div>
+						</li>
+						<li>
+							<label for="password">
+							Password <br>
+							<input class="logging-in" type="password" name="password" id="password">
+							</label>
+						</li>
+						<li>
+							<label for="btn-login">
+								<input type="submit" name="submit" value="Log In" id="btn-login">
+							</label>
+						</li>
+					</ul>
+					<div class="stay-logged">
+						<input type="checkbox" name="keep-me-logged-in">
+						<label>
+							Keep me logged in
+						</label>
+					</div>
+					<div class="forgot">
+						Forgot your password?
+					</div>
+				</form>
+			</section>
 		</section>
 	</header>
 

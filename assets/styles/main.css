@@ -1,6 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -12,39 +11,39 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*
@@ -66,3 +65,72 @@ table {
   clear: both;
   *zoom: 1;
 }
+
+/*
+  ======================
+  CONTAINERS
+  ======================
+*/
+
+.container {
+	min-width: 960px;
+	height: auto;
+	background-color: #3B5695;
+}
+
+.navbar-container {
+	min-width: 960px;
+	background-color: #3B5695;
+	height: 80px;
+}
+
+/*
+  ======================
+  NAVBAR
+  ======================
+*/
+
+.navbar {
+	background-color: #3B5695;
+	color: #fff;
+	display:block;
+	float:right;
+	font-size: 11px;
+	width: 397px;
+  height: 59px;
+	margin-right: 97px;
+}
+
+.login li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.fields li{
+	padding: 5px;
+}
+.stay-logged {
+	display: inline-block;
+}
+
+.stay-logged input {
+	margin-left: 5px;
+}
+
+.forgot {
+	display: inline-block;
+	margin-left: 41px;
+}
+
+
+
+
+
+
+
+
+
+
+
