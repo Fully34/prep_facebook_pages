@@ -68,69 +68,81 @@ table {
 
 /*
   ======================
-  CONTAINERS
+  CONTAINER
   ======================
 */
 
 .container {
-	min-width: 960px;
-	height: auto;
-	background-color: #3B5695;
+  background-color: #3a5795;
+  height: 82px;
+  min-width: 980px;
 }
 
-.navbar-container {
-	min-width: 960px;
-	background-color: #3B5695;
-	height: 80px;
+.menubar {
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
 }
 
 /*
   ======================
-  NAVBAR
+  LOGO
   ======================
 */
 
-.navbar {
-	background-color: #3B5695;
-	color: #fff;
-	display:block;
-	float:right;
-	font-size: 11px;
-	width: 397px;
-  height: 59px;
-	margin-right: 97px;
+.logo {
+  display: inline-block;
+}
+.logo img {
+  height: 50px;
+  width: 190px;
 }
 
-.login li{
-	list-style-type: none;
-	display: inline-block;
-	text-align: left;
-	margin-top: 15px;
+/*
+  ======================
+  LOGIN
+  ======================
+*/
+.login {
+  float:right;
+}
+table {
+  display:table;
+  font-size: 11px;
+  font-family: "Lucida Grande", "Helvetica", sans-serif;
 }
 
-.fields li{
-	padding: 5px;
-}
-.stay-logged {
-	display: inline-block;
-}
-
-.stay-logged input {
-	margin-left: 5px;
+th, td {
+  color: #ddd;
+  padding: 0 6px 6px 6px;
+  text-align: left;
 }
 
-.forgot {
-	display: inline-block;
-	margin-left: 41px;
+table a {
+  color: #ddd;
+  text-decoration: none;
 }
 
+td input {
+  margin-left: 0;
+}
 
+.offset {
+  color: #9daccb;
+}
+.offset a {
+  color: #9daccb;
+}
 
+.btn input {    
+  background-color: #5b74a8;
+  border: 1px solid #999;
+  color: #fff;
+  display: inline-block;  font-weight: 700;
+  height: 20px;
+  padding: 2px 6px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);  
+  text-align: center;  
+  width:50px;
 
-
-
-
-
-
-
-
+}

@@ -6,42 +6,44 @@
 	<link href="assets/styles/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<header class="container">
-		<section class="logo">
-		</section>
-		<section class="container navbar-container">
-			<section class="navbar">
-				<form class="login" action="#" method="post"> 
-					<ul class="fields">
-						<li><label for="email">
-							Email <br>
-							<input class="logging-in" type="email" name="email" id="email">
-							</label>
-						</li>
-						<li>
-							<label for="password">
-							Password <br>
-							<input class="logging-in" type="password" name="password" id="password">
-							</label>
-						</li>
-						<li>
-							<label for="btn-login">
-								<input type="submit" name="submit" value="Log In" id="btn-login">
-							</label>
-						</li>
-					</ul>
-					<div class="stay-logged">
-						<input type="checkbox" name="keep-me-logged-in">
-						<label>
-							Keep me logged in
-						</label>
-					</div>
-					<div class="forgot">
-						Forgot your password?
-					</div>
-				</form>
-			</section>
-		</section>
+	<header>
+		<div class="container">
+			<div class="menubar">
+				<div class="logo">
+					<img src="assets/images/homepage/logo.jpg">
+				</div>
+					<table class="login">
+						<thead>
+							<tr>
+								<th><a href="#">Email or Phone</a></th>
+								<th><a href="#">Password</a></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<input type="text" name="email" method="post">
+								</td>
+								<td>
+									<input type="password" name="password" method="post">
+								</td>
+								<td class="btn">
+									<input type="submit" name="log in" value="Log In" method="post">
+								</td>
+							</tr>
+							<tr>
+								<td class="offset" >
+									<input type="checkbox"	name="staylogged" value="Keep me logged in">Keep me logged in</input>
+								</td>
+								<td class="offset" >
+									<a href="#">Forgot your password?</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>	
 	</header>
 
 	<footer>
