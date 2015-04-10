@@ -9,41 +9,90 @@
 	<header>
 		<div class="container">
 			<div class="menubar">
+				<!-- MENUBAR CONTAINS LOGO AND LOGIN TABLE -->
 				<div class="logo">
 					<img src="assets/images/homepage/logo.jpg">
 				</div>
-					<table class="login">
-						<thead>
-							<tr>
-								<th><a href="#">Email or Phone</a></th>
-								<th><a href="#">Password</a></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<input type="text" name="email" method="post">
-								</td>
-								<td>
-									<input type="password" name="password" method="post">
-								</td>
-								<td class="btn">
-									<input type="submit" name="log in" value="Log In" method="post">
-								</td>
-							</tr>
-							<tr>
-								<td class="offset" >
-									<input type="checkbox"	name="staylogged" value="Keep me logged in">Keep me logged in</input>
-								</td>
-								<td class="offset" >
-									<a href="#">Forgot your password?</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+				<table class="login">
+					<thead>
+						<tr>
+							<th><a href="#">Email or Phone</a></th>
+							<th><a href="#">Password</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<input type="text" name="email" method="post" placeholder="WHO ARE YOU?!?!">
+							</td>
+							<td>
+								<input type="password" name="password" method="post" placeholder="FEED ME PASSWORD!">
+							</td>
+							<td class="btn">
+								<input type="submit" name="log in" value="Log In" method="post">
+							</td>
+						</tr>
+						<tr>
+							<td class="offset" >
+								<input type="checkbox"	name="staylogged" value="Keep me logged in">Keep me logged in</input>
+							</td>
+							<td class="offset" >
+								<a href="#">Forgot your password?</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
-		</div>	
+			<div class="main-container">
+				<section class="information">
+					<div class="column-1">
+						<h2>Connect with friends and the <br> world around you on Facebook</h2>
+						<div class="front-description">
+							<div class="icon icon-news">
+								<img src="https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xap1/t39.2365-6/851565_602269956474188_918638970_n.png">
+							</div>
+							<div class="allows">
+								<div class="allows description-1">See photos and updates</div>
+								<div class="allows description-2"> from friends in News Feed</div>
+							</div>
+						</div>
+						<div class="front-description">
+							<div class="icon icon-share">
+								<img src="https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xap1/t39.2365-6/851585_216271631855613_2121533625_n.png">
+							</div>
+							<div class="allows">
+								<div class="allows description-1">Share what's new</div>
+								<div class="allows description-2"> in your life on your Timeline.</div>
+							</div>
+						</div>
+						<div class="front-description">
+							<div class="front-description">
+							<div class="icon icon-find">
+								<img src="https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xap1/t39.2365-6/851558_160351450817973_1678868765_n.png">
+							</div>
+							<div class="allows">
+								<div class="allows description-1">Find more</div>
+								<div class="allows description-2">of what you're looking for with Graph Search</div>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="column-2">
+						<h2>Sign Up</h2>
+						<div class="description-3">It's free and always will be</div>
+							<form method="post" name="reg" action="#">
+								<div class="name">
+									<input type="text" name"firstname" placeholder="First Name">
+								</div>
+								<div class="name">
+									<input type="text" name"lastname" placeholder="Last Name">
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>	
+			</div>
+		</div>
 	</header>
 
 	<footer>

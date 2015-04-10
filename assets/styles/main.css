@@ -80,7 +80,7 @@ table {
 
 .menubar {
   margin: 0 auto;
-  padding-top: 13px;
+  padding: 14px 0;
   width: 980px;
 }
 
@@ -136,13 +136,136 @@ td input {
 
 .btn input {    
   background-color: #5b74a8;
-  border: 1px solid #999;
+  border: none;
   color: #fff;
   display: inline-block;  font-weight: 700;
   height: 20px;
   padding: 2px 6px;
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);  
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3), inset 0 1px  0 rgba(255,255,255,.2);  
   text-align: center;  
   width:50px;
 
 }
+
+/*
+  ======================
+  MAIN CONTENT
+  ======================
+*/
+
+.main-container {
+  background-color: #EDF0F5;
+}
+
+.information{
+  width: 980px;
+  margin: 0 auto;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+/*
+  ======================
+  COLUMN 1 CONTENT
+  ======================
+*/
+
+.column-1 {
+  display: inline-block;
+  width:565px;
+  vertical-align: top;
+  margin-right: 15.999px;
+}
+
+.column-1 h2{
+  padding: 42px 0 24px;
+  font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.front-description {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.front-description img {
+  margin-right: 10px;
+}
+.allows {
+  display: inline-block;
+  line-height: 22px;
+}
+
+.icon {
+  display:inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.icon-news{
+  margin-left: 5px;
+}
+.icon-share{
+  margin-left: 7px;
+}
+.allows div {
+  line-height: 22px;
+}
+.description-1 {
+  color: #333;
+  font-family: "Freight Sans Bold", "lucida grande",tahoma,verdana,arial,sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  }
+
+.description-2 {
+  color: #666;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  margin-left: 10px;
+}
+
+
+/*
+  ======================
+  COLUMN 2 CONTENT
+  ======================
+*/
+
+.column-2 {
+  display: inline-block;
+  float:right;
+  font-family: 'Freight Sans', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+  width: 399px;
+}
+
+.column-2 h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+
+.description-3 {
+  color: #333;
+  font-size: 19px;
+  line-height: 126%;
+}
+
+/*
+  ======================
+  FORM
+  ======================
+*/
+
+.formbox {
+  display: inline-block;
+  float:left;
+  width: 399px;
+}
+
+.name{
+  display: inline-block;
+}
+
+
+
