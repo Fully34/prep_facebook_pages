@@ -92,6 +92,7 @@ table {
 
 .logo {
   display: inline-block;
+  float:left;
 }
 .logo img {
   height: 50px;
@@ -138,7 +139,8 @@ td input {
   background-color: #5b74a8;
   border: none;
   color: #fff;
-  display: inline-block;  font-weight: 700;
+  display: inline-block;  
+  font-weight: 700;
   height: 20px;
   padding: 2px 6px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3), inset 0 1px  0 rgba(255,255,255,.2);  
@@ -171,7 +173,7 @@ td input {
 */
 
 .column-1 {
-  display: inline-block;
+  float:left;
   width:565px;
   vertical-align: top;
   margin-right: 15.999px;
@@ -249,6 +251,7 @@ td input {
   color: #333;
   font-size: 19px;
   line-height: 126%;
+  margin-bottom: 10px;
 }
 
 /*
@@ -261,11 +264,175 @@ td input {
   display: inline-block;
   float:left;
   width: 399px;
+  height: auto;
 }
 
-.name{
+.name-container{
   display: inline-block;
+  margin: 0 5px 7px 0;
+}
+.name:first-child{
+display: inline-block;
+height: 40px;
+width: 190px;
 }
 
+.name:last-child{
+display: inline-block;
+height: 40px;
+width: 190px;
+}
 
+.name input{
+  border-radius: 5px;
+  font-size: 18px;
+  height: 23px;
+  width: 170px;
+  padding: 7px 9px;
+  border: 1px solid #bdc7d8;
+  margin-bottom: 12px
+}
+
+.other-container input{
+  height: 39px;
+  width: 370px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  font-size: 18px;
+  padding: 0 9px;
+  margin-bottom: 12px;
+}
+
+/*
+  ======================
+  DROPDOWN BIRTHDAY MENU
+  ======================
+*/
+
+.bday-container{
+  display: inline-block;
+  height: 30px;
+}
+
+.bday-menu {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.bday-menu select {
+  height: 30px;
+  width:70px;
+  border: 1px solid #bdc7d8;
+}
+
+.userquestion{
+  display: inline-block;
+  max-width: 150px;
+}
+.userquestion  a {
+  color: #3C589F;
+  display: inline-block;
+  height: 23px;
+  font-size: 11px;
+  margin-left: 10px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+/*
+  ======================
+  GENDER IDENTIFICATION
+  ======================
+*/
+
+.gender-container{
+  display: block;
+  margin-top: 20px;
+}
+
+.gender label {
+  color: #141823;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; 
+  font-size: 18px;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.gender input {
+  margin: 0 5px 5px 5px;
+  vertical-align: middle;
+}
+
+.male {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.female {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+  ======================
+  TERMS OF SERVICE
+  ======================
+*/
+
+.byclicking {
+  display: block;
+  margin-top: 10px;
+}
+
+.byclicking p {
+  color: #777;
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-size: 11px;
+}
+
+.byclicking a{
+  color: #3b5998;
+  text-decoration: none;
+}
+
+/*
+  ======================
+  SIGN UP BUTTON & BELOW
+  ======================
+*/
+
+.signup {
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+.signup-btn input {
+  background: -webkit-linear-gradient(#67ae55, #578843);
+  border:1px solid #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+  font-size: 19px;
+  font-weight: 700;
+  height: 45px;
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+  width: 200px;
+}
+
+.create {
+  color: #666;
+  border-top: 1px solid #a0a9c0;
+  margin-top: 10px;
+  padding-top: 15px;
+  font-family:'Freight Sans', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.create a {
+  color: #3b5998;
+  text-decoration: none;
+}
 
